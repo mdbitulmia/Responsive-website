@@ -27,7 +27,15 @@
 .bg-light{
     background-color: rgba(255, 144, 14, 0.1);
 }
-
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
 
 /* header style */
 
@@ -54,4 +62,26 @@
 .navbar, .bannar{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* bannar related style */
+.bannar-contant{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.bannar-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+.bannar-image{
+    width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
 }
